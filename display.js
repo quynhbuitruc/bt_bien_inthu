@@ -1,8 +1,11 @@
-function display() {
+function Display() {
     let Receiver = document.getElementById("receiver").value;
     let Date = document.getElementById("date").value;
     let Place = document.getElementById("address").value;
-    document.getElementById("hienthi 1").innerHTML = Receiver + "thương nhớ,"
-    document.getElementById("hienthi 2").innerHTML = document.getElementById("ndung").value
-    document.getElementById("hienthi 3").innerHTML = Place + "," + Date;
+    let Hienthi1 = Receiver + "thương nhớ,";
+    let Hienthi2 = document.getElementById("ndung").value;
+    let Hienthi3 = Place + "," + Date;
+    document.getElementById("hienthi1").innerHTML = Hienthi1;
+    document.getElementById("hienthi2").innerHTML = Hienthi2;
+    document.getElementById("hienthi3").innerHTML = Hienthi3;
 }
